@@ -42,7 +42,7 @@ namespace ProductApps
         private decimal Delivery
         {
             get { return delivery; }
-            set { delivery = value; }
+            set { delivery = 25; }
         }
 
 
@@ -74,7 +74,7 @@ namespace ProductApps
         //Calculate the total charge
         public void calTotalCharge()
         {
-            TotalCharge = TotalPayment + delivery;
+            TotalCharge = TotalPayment + 25;
         }
     }
 }
