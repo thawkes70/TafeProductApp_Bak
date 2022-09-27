@@ -14,10 +14,12 @@
         <Button Name="calculateButton" Content="_Calculate" HorizontalAlignment="Left" Height="37" Margin="327,152,0,0" VerticalAlignment="Top" Width="122" Click="calculateButton_Click"/>
         <Button Name="clearButton" Content="C_lear" HorizontalAlignment="Left" Height="34" Margin="327,209,0,0" VerticalAlignment="Top" Width="122" Click="clearButton_Click"/>
         <Button Name="closeButton" Content="Cl_ose" HorizontalAlignment="Left" Height="34" Margin="327,264,0,0" VerticalAlignment="Top" Width="122" Click="closeButton_Click"/>
-        <TextBlock x:Name="totalChargeTextBlock" HorizontalAlignment="Left" Margin="199,222,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top"/>
-        <Label x:Name="label" Content="Total Charge after adding &#xA;the delivery charge ($25) " HorizontalAlignment="Left" Margin="46,209,0,0" VerticalAlignment="Top" Width="172" Height="43"/>
-        <Label x:Name="label1" Content="Total Charge after adding &#xA;the wrap charge ($5)" HorizontalAlignment="Left" Margin="48,264,0,0" VerticalAlignment="Top" Width="151"/>
-        <TextBlock x:Name="totalChrargeWrapTextBlock" HorizontalAlignment="Left" Margin="222,281,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock x:Name="totalChargeTextBlock" HorizontalAlignment="Left" Margin="202,204,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="92"/>
+        <Label x:Name="label" Content="Total Charge after adding &#xA;the delivery charge ($25) " HorizontalAlignment="Left" Margin="46,190,0,0" VerticalAlignment="Top" Width="172" Height="43"/>
+        <Label x:Name="label1" Content="Total Charge after adding &#xA;the wrap charge ($5)" HorizontalAlignment="Left" Margin="48,231,0,0" VerticalAlignment="Top" Width="151"/>
+        <TextBlock x:Name="totalChrargeWrapTextBlock" HorizontalAlignment="Left" Margin="222,239,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="72"/>
+        <TextBlock x:Name="totalChargeGSTTextBlock" HorizontalAlignment="Left" Margin="235,283,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="71"/>
+        <Label x:Name="label2" Content="Total Charge After GST @ 10%" HorizontalAlignment="Left" Margin="48,278,0,0" VerticalAlignment="Top" Width="170"/>
 
 
     </Grid>
